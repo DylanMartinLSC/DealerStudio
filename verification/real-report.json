@@ -1,0 +1,20 @@
+{
+  "seconds": 1.79,
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "source_size": [
+    4841,
+    2534
+  ],
+  "mask_size": [
+    4841,
+    2534
+  ],
+  "export_size": [
+    2000,
+    1500
+  ],
+  "errors": [],
+  "network": "Python socket connect/create_connection blocked throughout session load, inference and export"
+}

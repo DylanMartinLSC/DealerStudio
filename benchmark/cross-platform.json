@@ -1,0 +1,43 @@
+{
+  "first": "benchmark\\results\\windows-baseline",
+  "second": "benchmark\\results\\wsl-offline",
+  "mask_comparisons": [
+    {
+      "id": "sedan-front",
+      "max_alpha_delta": 0,
+      "mean_alpha_delta": 0.0,
+      "threshold_disagreement_fraction": 0.0
+    },
+    {
+      "id": "sedan-rear",
+      "max_alpha_delta": 0,
+      "mean_alpha_delta": 0.0,
+      "threshold_disagreement_fraction": 0.0
+    },
+    {
+      "id": "pickup",
+      "max_alpha_delta": 0,
+      "mean_alpha_delta": 0.0,
+      "threshold_disagreement_fraction": 0.0
+    },
+    {
+      "id": "suv-rack",
+      "max_alpha_delta": 0,
+      "mean_alpha_delta": 0.0,
+      "threshold_disagreement_fraction": 0.0
+    },
+    {
+      "id": "hatch-side",
+      "max_alpha_delta": 0,
+      "mean_alpha_delta": 0.0,
+      "threshold_disagreement_fraction": 0.0
+    },
+    {
+      "id": "convertible",
+      "max_alpha_delta": 0,
+      "mean_alpha_delta": 0.0,
+      "threshold_disagreement_fraction": 0.0
+    }
+  ],
+  "aggregate_metrics_equal": true
+}

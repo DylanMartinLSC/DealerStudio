@@ -1,0 +1,12 @@
+{
+  "frozen_utc": "2026-10-27T17:13:48.085654+00:00",
+  "annotations_sha256": "2d2bb754f6e7b0bdf8a57d6218dc69ab21855f9342d3d0a1411c0e055c7726b1",
+  "manifest_sha256": "aac17e3f76475cc94dc57b68a314789233072c7f827f81cb87e225adae2b9eac",
+  "labels": "Single-annotator coarse outlines and sparse original-only probes; five new exterior images not evaluated before freeze",
+  "review_thresholds": {
+    "core_iou": 0.95,
+    "foreground_probe_recall": 0.95,
+    "background_probe_rejection": 0.95
+  },
+  "boundary_ignore_pixels_at_width_1000": 12
+}

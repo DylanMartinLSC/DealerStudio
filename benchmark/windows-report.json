@@ -1,0 +1,1935 @@
+{
+  "version": 1,
+  "utc": "2026-10-27T17:13:59.881648+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.7",
+  "model_sha256": "8d10d2f3bb75ae3b6d527c77944fc5e7dcd94b29809d47a739a7a728a912b491",
+  "annotation_freeze": {
+    "frozen_utc": "2026-10-27T17:13:48.085654+00:00",
+    "annotations_sha256": "2d2bb754f6e7b0bdf8a57d6218dc69ab21855f9342d3d0a1411c0e055c7726b1",
+    "manifest_sha256": "aac17e3f76475cc94dc57b68a314789233072c7f827f81cb87e225adae2b9eac",
+    "labels": "Single-annotator coarse outlines and sparse original-only probes; five new exterior images not evaluated before freeze",
+    "review_thresholds": {
+      "core_iou": 0.95,
+      "foreground_probe_recall": 0.95,
+      "background_probe_rejection": 0.95
+    },
+    "boundary_ignore_pixels_at_width_1000": 12
+  },
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "seconds": 11.045,
+  "network": "Python socket connects blocked",
+  "network_interfaces": [
+    [
+      26,
+      "ethernet_0"
+    ],
+    [
+      27,
+      "ethernet_1"
+    ],
+    [
+      28,
+      "ethernet_2"
+    ],
+    [
+      41,
+      "ethernet_3"
+    ],
+    [
+      42,
+      "ethernet_4"
+    ],
+    [
+      43,
+      "ethernet_5"
+    ],
+    [
+      44,
+      "ethernet_6"
+    ],
+    [
+      45,
+      "ethernet_7"
+    ],
+    [
+      46,
+      "ethernet_8"
+    ],
+    [
+      12,
+      "ethernet_32768"
+    ],
+    [
+      11,
+      "ethernet_32769"
+    ],
+    [
+      9,
+      "ethernet_32770"
+    ],
+    [
+      17,
+      "ethernet_32771"
+    ],
+    [
+      20,
+      "ethernet_32772"
+    ],
+    [
+      4,
+      "ethernet_32773"
+    ],
+    [
+      8,
+      "ethernet_32774"
+    ],
+    [
+      18,
+      "ethernet_32775"
+    ],
+    [
+      14,
+      "ppp_32768"
+    ],
+    [
+      1,
+      "loopback_0"
+    ],
+    [
+      29,
+      "wireless_0"
+    ],
+    [
+      30,
+      "wireless_1"
+    ],
+    [
+      31,
+      "wireless_2"
+    ],
+    [
+      32,
+      "wireless_3"
+    ],
+    [
+      33,
+      "wireless_4"
+    ],
+    [
+      34,
+      "wireless_5"
+    ],
+    [
+      35,
+      "wireless_6"
+    ],
+    [
+      36,
+      "wireless_7"
+    ],
+    [
+      37,
+      "wireless_8"
+    ],
+    [
+      38,
+      "wireless_9"
+    ],
+    [
+      39,
+      "wireless_10"
+    ],
+    [
+      40,
+      "wireless_11"
+    ],
+    [
+      24,
+      "wireless_32771"
+    ],
+    [
+      23,
+      "wireless_32772"
+    ],
+    [
+      15,
+      "wireless_32773"
+    ],
+    [
+      3,
+      "wireless_32774"
+    ],
+    [
+      6,
+      "wireless_32775"
+    ],
+    [
+      21,
+      "wireless_32776"
+    ],
+    [
+      25,
+      "wireless_32777"
+    ],
+    [
+      22,
+      "wireless_32778"
+    ],
+    [
+      13,
+      "tunnel_32512"
+    ],
+    [
+      7,
+      "tunnel_32513"
+    ],
+    [
+      2,
+      "tunnel_32514"
+    ],
+    [
+      16,
+      "tunnel_32768"
+    ],
+    [
+      5,
+      "tunnel_32769"
+    ],
+    [
+      19,
+      "tunnel_32770"
+    ],
+    [
+      10,
+      "tunnel_32771"
+    ]
+  ],
+  "aggregate_evaluation": {
+    "coarse_silhouette_iou": 0.9525060624610463,
+    "core_region_iou": 0.9901567900734829,
+    "foreground_probe_recall": 0.97,
+    "background_probe_rejection": 0.9666666666666666,
+    "opaque_foreground_fraction": 0.97
+  },
+  "evaluation_images": 5,
+  "evaluation_review_flags": 3,
+  "exported_count": 8,
+  "export_path": "benchmark\\results\\windows-baseline\\Vehicle-benchmark-20261027-121357-870152",
+  "results": [
+    {
+      "id": "sedan-front",
+      "split": "known-development",
+      "photo_type": "exterior",
+      "source_size": [
+        4841,
+        2534
+      ],
+      "coarse_silhouette_iou": 0.9587284222950725,
+      "core_region_iou": 0.9994418846673548,
+      "excluded_boundary_fraction": 0.12832122370936902,
+      "foreground_probe_recall": 1.0,
+      "background_probe_rejection": 1.0,
+      "opaque_foreground_fraction": 1.0,
+      "probes": [
+        {
+          "group": "foreground",
+          "x": 110,
+          "y": 280,
+          "name": "badge",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 111,
+          "y": 350,
+          "name": "plate",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 160,
+          "y": 239,
+          "name": "hood",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 300,
+          "y": 220,
+          "name": "hood",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 400,
+          "y": 200,
+          "name": "paint",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 442,
+          "y": 112,
+          "name": "glass",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 560,
+          "y": 85,
+          "name": "glass",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 650,
+          "y": 150,
+          "name": "mirror",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 645,
+          "y": 175,
+          "name": "mirror stalk",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 756,
+          "y": 114,
+          "name": "glass",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 837,
+          "y": 113,
+          "name": "rear glass",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 820,
+          "y": 212,
+          "name": "door",
+          "alpha": 1.0,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 745,
+          "y": 268,
+          "name": "door condition",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 690,
+          "y": 337,
+          "name": "lower door",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 513,
+          "y": 359,
+          "name": "front wheel",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 496,
+          "y": 431,
+          "name": "tire",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 900,
+          "y": 280,
+          "name": "rear wheel",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 915,
+          "y": 151,
+          "name": "rear lamp",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 357,
+          "y": 270,
+          "name": "headlamp",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 276,
+          "y": 350,
+          "name": "grille",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 50,
+          "y": 30,
+          "name": "tree",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 900,
+          "y": 40,
+          "name": "house",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 320,
+          "y": 110,
+          "name": "neighboring car",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 120,
+          "y": 155,
+          "name": "lawn",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 950,
+          "y": 400,
+          "name": "road",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 700,
+          "y": 450,
+          "name": "road",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 300,
+          "y": 465,
+          "name": "cast shadow",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 700,
+          "y": 25,
+          "name": "background",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 980,
+          "y": 200,
+          "name": "curb",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 15,
+          "y": 470,
+          "name": "road",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 300,
+          "y": 490,
+          "name": "road",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 800,
+          "y": 380,
+          "name": "road below sill",
+          "alpha": 0.0,
+          "correct": true
+        }
+      ],
+      "needs_manual_review": false,
+      "export_size": [
+        2000,
+        1500
+      ],
+      "original_preserved": true,
+      "seconds": 1.152
+    },
+    {
+      "id": "sedan-rear",
+      "split": "evaluation",
+      "photo_type": "exterior",
+      "source_size": [
+        4585,
+        2368
+      ],
+      "coarse_silhouette_iou": 0.9557490890671722,
+      "core_region_iou": 0.9880164375966946,
+      "excluded_boundary_fraction": 0.13273255813953488,
+      "foreground_probe_recall": 1.0,
+      "background_probe_rejection": 0.9166666666666666,
+      "opaque_foreground_fraction": 1.0,
+      "probes": [
+        {
+          "group": "foreground",
+          "x": 119,
+          "y": 149,
+          "name": "mirror",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 133,
+          "y": 171,
+          "name": "mirror stalk",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 233,
+          "y": 132,
+          "name": "glass",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 350,
+          "y": 110,
+          "name": "glass",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 578,
+          "y": 101,
+          "name": "rear glass",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 668,
+          "y": 133,
+          "name": "rear glass",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 850,
+          "y": 173,
+          "name": "badge",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 850,
+          "y": 241,
+          "name": "plate",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 732,
+          "y": 216,
+          "name": "tail lamp",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 910,
+          "y": 310,
+          "name": "bumper",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 794,
+          "y": 366,
+          "name": "bumper",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 568,
+          "y": 358,
+          "name": "rear quarter",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 432,
+          "y": 372,
+          "name": "rear wheel",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 436,
+          "y": 451,
+          "name": "rear tire",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 66,
+          "y": 283,
+          "name": "front wheel",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 213,
+          "y": 254,
+          "name": "door",
+          "alpha": 1.0,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 358,
+          "y": 224,
+          "name": "door",
+          "alpha": 1.0,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 458,
+          "y": 207,
+          "name": "fuel door",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 504,
+          "y": 66,
+          "name": "roof",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 601,
+          "y": 282,
+          "name": "paint",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 30,
+          "y": 30,
+          "name": "tree",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 210,
+          "y": 53,
+          "name": "neighboring pickup",
+          "alpha": 0.0353,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 158,
+          "y": 110,
+          "name": "neighboring pickup",
+          "alpha": 0.9882,
+          "correct": false
+        },
+        {
+          "group": "background",
+          "x": 880,
+          "y": 50,
+          "name": "house",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 980,
+          "y": 180,
+          "name": "grass",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 980,
+          "y": 460,
+          "name": "road",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 130,
+          "y": 440,
+          "name": "road",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 300,
+          "y": 450,
+          "name": "road",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 550,
+          "y": 475,
+          "name": "cast shadow",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 751,
+          "y": 464,
+          "name": "road",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 22,
+          "y": 390,
+          "name": "road",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 950,
+          "y": 107,
+          "name": "background",
+          "alpha": 0.0,
+          "correct": true
+        }
+      ],
+      "needs_manual_review": true,
+      "export_size": [
+        2000,
+        1500
+      ],
+      "original_preserved": true,
+      "seconds": 1.116
+    },
+    {
+      "id": "pickup",
+      "split": "evaluation",
+      "photo_type": "exterior",
+      "source_size": [
+        3592,
+        2906
+      ],
+      "coarse_silhouette_iou": 0.9351951044403598,
+      "core_region_iou": 0.975269096470724,
+      "excluded_boundary_fraction": 0.104610630407911,
+      "foreground_probe_recall": 0.85,
+      "background_probe_rejection": 1.0,
+      "opaque_foreground_fraction": 0.85,
+      "probes": [
+        {
+          "group": "foreground",
+          "x": 465,
+          "y": 45,
+          "name": "roof fin",
+          "alpha": 0.0039,
+          "correct": false
+        },
+        {
+          "group": "foreground",
+          "x": 520,
+          "y": 60,
+          "name": "roof",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 499,
+          "y": 125,
+          "name": "glass",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 742,
+          "y": 139,
+          "name": "glass",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 650,
+          "y": 244,
+          "name": "hood",
+          "alpha": 1.0,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 351,
+          "y": 255,
+          "name": "hood shade",
+          "alpha": 1.0,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 180,
+          "y": 281,
+          "name": "hood",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 245,
+          "y": 420,
+          "name": "badge",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 244,
+          "y": 477,
+          "name": "grille",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 600,
+          "y": 432,
+          "name": "grille",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 689,
+          "y": 402,
+          "name": "lamp",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 656,
+          "y": 482,
+          "name": "lamp",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 801,
+          "y": 305,
+          "name": "fender",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 800,
+          "y": 425,
+          "name": "running board",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 897,
+          "y": 192,
+          "name": "mirror",
+          "alpha": 0.0,
+          "correct": false
+        },
+        {
+          "group": "foreground",
+          "x": 975,
+          "y": 216,
+          "name": "mirror",
+          "alpha": 0.0,
+          "correct": false
+        },
+        {
+          "group": "foreground",
+          "x": 744,
+          "y": 671,
+          "name": "tire",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 723,
+          "y": 726,
+          "name": "tire",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 416,
+          "y": 716,
+          "name": "bumper",
+          "alpha": 0.9922,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 125,
+          "y": 535,
+          "name": "bumper",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 100,
+          "y": 50,
+          "name": "background",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 141,
+          "y": 148,
+          "name": "neighboring truck",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 20,
+          "y": 191,
+          "name": "neighboring truck",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 290,
+          "y": 109,
+          "name": "neighboring truck",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 854,
+          "y": 74,
+          "name": "building",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 944,
+          "y": 330,
+          "name": "neighboring car",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 894,
+          "y": 451,
+          "name": "ground",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 960,
+          "y": 607,
+          "name": "cast shadow",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 854,
+          "y": 731,
+          "name": "ground",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 50,
+          "y": 750,
+          "name": "grass",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 679,
+          "y": 783,
+          "name": "ground",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 500,
+          "y": 22,
+          "name": "background",
+          "alpha": 0.0,
+          "correct": true
+        }
+      ],
+      "needs_manual_review": true,
+      "export_size": [
+        2000,
+        1500
+      ],
+      "original_preserved": true,
+      "seconds": 1.533
+    },
+    {
+      "id": "suv-rack",
+      "split": "evaluation",
+      "photo_type": "exterior",
+      "source_size": [
+        4841,
+        2831
+      ],
+      "coarse_silhouette_iou": 0.9641668544208053,
+      "core_region_iou": 0.9963204253263871,
+      "excluded_boundary_fraction": 0.12234871794871795,
+      "foreground_probe_recall": 1.0,
+      "background_probe_rejection": 0.9166666666666666,
+      "opaque_foreground_fraction": 1.0,
+      "probes": [
+        {
+          "group": "foreground",
+          "x": 315,
+          "y": 80,
+          "name": "roof rail",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 541,
+          "y": 83,
+          "name": "roof rail",
+          "alpha": 0.9843,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 465,
+          "y": 153,
+          "name": "windshield",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 590,
+          "y": 157,
+          "name": "windshield",
+          "alpha": 1.0,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 212,
+          "y": 158,
+          "name": "side glass",
+          "alpha": 1.0,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 332,
+          "y": 196,
+          "name": "mirror",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 343,
+          "y": 235,
+          "name": "mirror stalk",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 303,
+          "y": 268,
+          "name": "door paint",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 131,
+          "y": 251,
+          "name": "rear door",
+          "alpha": 1.0,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 230,
+          "y": 380,
+          "name": "sill",
+          "alpha": 1.0,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 445,
+          "y": 428,
+          "name": "front wheel",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 450,
+          "y": 502,
+          "name": "front tire",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 105,
+          "y": 411,
+          "name": "rear wheel",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 139,
+          "y": 472,
+          "name": "rear tire",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 785,
+          "y": 374,
+          "name": "plate",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 800,
+          "y": 276,
+          "name": "badge",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 601,
+          "y": 279,
+          "name": "headlamp",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 792,
+          "y": 230,
+          "name": "hood",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 627,
+          "y": 380,
+          "name": "bumper",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 850,
+          "y": 453,
+          "name": "far tire",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 100,
+          "y": 40,
+          "name": "tree",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 450,
+          "y": 50,
+          "name": "house",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 700,
+          "y": 80,
+          "name": "house",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 880,
+          "y": 146,
+          "name": "hedge",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 20,
+          "y": 283,
+          "name": "neighboring car",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 28,
+          "y": 350,
+          "name": "neighboring car",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 975,
+          "y": 454,
+          "name": "curb",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 630,
+          "y": 493,
+          "name": "cast shadow",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 290,
+          "y": 514,
+          "name": "road",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 200,
+          "y": 459,
+          "name": "gap below sill",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 965,
+          "y": 545,
+          "name": "road",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 244,
+          "y": 89,
+          "name": "open roof rail gap",
+          "alpha": 0.9098,
+          "correct": false
+        }
+      ],
+      "needs_manual_review": true,
+      "export_size": [
+        2000,
+        1500
+      ],
+      "original_preserved": true,
+      "seconds": 1.415
+    },
+    {
+      "id": "hatch-side",
+      "split": "evaluation",
+      "photo_type": "exterior",
+      "source_size": [
+        5124,
+        2004
+      ],
+      "coarse_silhouette_iou": 0.9602136527266197,
+      "core_region_iou": 0.9994381804796776,
+      "excluded_boundary_fraction": 0.1651841432225064,
+      "foreground_probe_recall": 1.0,
+      "background_probe_rejection": 1.0,
+      "opaque_foreground_fraction": 1.0,
+      "probes": [
+        {
+          "group": "foreground",
+          "x": 110,
+          "y": 213,
+          "name": "headlamp",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 153,
+          "y": 181,
+          "name": "fender",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 190,
+          "y": 288,
+          "name": "front wheel",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 178,
+          "y": 345,
+          "name": "front tire",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 349,
+          "y": 138,
+          "name": "mirror",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 413,
+          "y": 102,
+          "name": "side glass",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 626,
+          "y": 92,
+          "name": "side glass",
+          "alpha": 1.0,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 760,
+          "y": 94,
+          "name": "rear glass",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 540,
+          "y": 37,
+          "name": "roof",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 789,
+          "y": 44,
+          "name": "antenna base",
+          "alpha": 0.9922,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 491,
+          "y": 174,
+          "name": "door handle",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 733,
+          "y": 164,
+          "name": "door handle",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 486,
+          "y": 239,
+          "name": "door",
+          "alpha": 1.0,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 646,
+          "y": 262,
+          "name": "door",
+          "alpha": 1.0,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 807,
+          "y": 293,
+          "name": "rear wheel",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 822,
+          "y": 352,
+          "name": "rear tire",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 927,
+          "y": 168,
+          "name": "tail lamp",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 930,
+          "y": 249,
+          "name": "bumper",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 640,
+          "y": 312,
+          "name": "sill",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 865,
+          "y": 114,
+          "name": "rear quarter",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 42,
+          "y": 150,
+          "name": "parking lot",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 213,
+          "y": 112,
+          "name": "parking lot",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 290,
+          "y": 49,
+          "name": "neighboring car",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 200,
+          "y": 28,
+          "name": "wall",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 552,
+          "y": 12,
+          "name": "fence",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 949,
+          "y": 91,
+          "name": "building",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 985,
+          "y": 252,
+          "name": "pavement",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 615,
+          "y": 360,
+          "name": "cast shadow",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 350,
+          "y": 367,
+          "name": "pavement",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 69,
+          "y": 352,
+          "name": "pavement",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 918,
+          "y": 358,
+          "name": "pavement",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 978,
+          "y": 35,
+          "name": "building",
+          "alpha": 0.0,
+          "correct": true
+        }
+      ],
+      "needs_manual_review": false,
+      "export_size": [
+        2000,
+        1500
+      ],
+      "original_preserved": true,
+      "seconds": 1.093
+    },
+    {
+      "id": "convertible",
+      "split": "evaluation",
+      "photo_type": "exterior",
+      "source_size": [
+        4321,
+        3075
+      ],
+      "coarse_silhouette_iou": 0.947205611650274,
+      "core_region_iou": 0.9917398104939309,
+      "excluded_boundary_fraction": 0.09977808988764045,
+      "foreground_probe_recall": 1.0,
+      "background_probe_rejection": 1.0,
+      "opaque_foreground_fraction": 1.0,
+      "probes": [
+        {
+          "group": "foreground",
+          "x": 82,
+          "y": 303,
+          "name": "raised left lamp",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 333,
+          "y": 326,
+          "name": "raised right lamp",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 308,
+          "y": 392,
+          "name": "turn signal",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 160,
+          "y": 345,
+          "name": "hood",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 232,
+          "y": 284,
+          "name": "hood",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 395,
+          "y": 259,
+          "name": "hood",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 447,
+          "y": 210,
+          "name": "windshield",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 605,
+          "y": 217,
+          "name": "windshield",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 663,
+          "y": 242,
+          "name": "windshield frame",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 743,
+          "y": 260,
+          "name": "mirror",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 720,
+          "y": 218,
+          "name": "seat",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 826,
+          "y": 237,
+          "name": "folded roof",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 815,
+          "y": 300,
+          "name": "door handle",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 715,
+          "y": 353,
+          "name": "door",
+          "alpha": 1.0,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 675,
+          "y": 429,
+          "name": "sill",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 510,
+          "y": 475,
+          "name": "front wheel",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 475,
+          "y": 541,
+          "name": "front tire",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 912,
+          "y": 419,
+          "name": "rear wheel",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 961,
+          "y": 316,
+          "name": "rear fender",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "foreground",
+          "x": 300,
+          "y": 478,
+          "name": "front bumper",
+          "alpha": 0.9961,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 100,
+          "y": 100,
+          "name": "grass",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 300,
+          "y": 161,
+          "name": "wall",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 527,
+          "y": 104,
+          "name": "plants",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 703,
+          "y": 146,
+          "name": "wall",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 777,
+          "y": 190,
+          "name": "open cabin background",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 849,
+          "y": 207,
+          "name": "open gap behind roof",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 971,
+          "y": 225,
+          "name": "neighboring car",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 990,
+          "y": 305,
+          "name": "neighboring car",
+          "alpha": 0.0039,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 678,
+          "y": 532,
+          "name": "cast shadow",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 151,
+          "y": 555,
+          "name": "cast shadow",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 700,
+          "y": 624,
+          "name": "road",
+          "alpha": 0.0,
+          "correct": true
+        },
+        {
+          "group": "background",
+          "x": 48,
+          "y": 650,
+          "name": "road",
+          "alpha": 0.0,
+          "correct": true
+        }
+      ],
+      "needs_manual_review": false,
+      "export_size": [
+        2000,
+        1500
+      ],
+      "original_preserved": true,
+      "seconds": 1.51
+    },
+    {
+      "id": "interior",
+      "split": "routing-control",
+      "photo_type": "interior",
+      "source_size": [
+        3016,
+        2011
+      ],
+      "routing_bypass_verified": true,
+      "export_size": [
+        2000,
+        1500
+      ],
+      "original_preserved": true,
+      "seconds": 0.3
+    },
+    {
+      "id": "wheel-detail",
+      "split": "routing-control",
+      "photo_type": "detail",
+      "source_size": [
+        968,
+        1089
+      ],
+      "routing_bypass_verified": true,
+      "export_size": [
+        2000,
+        1500
+      ],
+      "original_preserved": true,
+      "seconds": 0.117
+    }
+  ]
+}

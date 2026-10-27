@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "seconds": 2.17,
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "dimensions": [
+    2000,
+    1500
+  ],
+  "export": "C:\\Users\\dylan\\DealerStudio\\verification\\packaged\\Package-check-20261027-115040-660155"
+}

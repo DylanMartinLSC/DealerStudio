@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-27T17:19:11.001077+00:00",
+  "temporary_distro": "DealerStudioVerify",
+  "temporary_distro_registered": false,
+  "remaining_distros": [
+    "docker-desktop"
+  ],
+  "temporary_directory": "C:/Users/dylan/DealerStudio-WSL-Verify",
+  "temporary_directory_exists": false,
+  "dataset_and_results_retained": true
+}

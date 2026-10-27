@@ -1,0 +1,166 @@
+{
+  "version": 1,
+  "samples": [
+    {
+      "id": "sedan-front",
+      "image": "images/sedan-front.jpg",
+      "title": "2018 Toyota Camry LE front 6.13.18.jpg",
+      "photo_type": "exterior",
+      "split": "known-development",
+      "tags": "sedan, silver, front three-quarter, reflections",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2018_Toyota_Camry_LE_front_6.13.18.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Toyota_Camry_LE_front_6.13.18.jpg",
+      "author": "Kevauto",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "1bd9c4059f8c5acc18a7fd309cc1811444a8cbae70677d3a6353b8ac1423c05c",
+      "size": [
+        4841,
+        2534
+      ],
+      "retrieved": "2026-10-27T17:07:40.454047+00:00",
+      "transformation": "Unmodified original"
+    },
+    {
+      "id": "sedan-rear",
+      "image": "images/sedan-rear.jpg",
+      "title": "2018 Toyota Camry LE rear 6.13.18.jpg",
+      "photo_type": "exterior",
+      "split": "evaluation",
+      "tags": "sedan, silver, rear three-quarter, street",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/2018_Toyota_Camry_LE_rear_6.13.18.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Toyota_Camry_LE_rear_6.13.18.jpg",
+      "author": "Kevauto",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "cd2748a01deb35e6f1eed935240a66e8be0c5d8c9a5b88eec188fb88ad5f7c77",
+      "size": [
+        4585,
+        2368
+      ],
+      "retrieved": "2026-10-27T17:07:41.461894+00:00",
+      "transformation": "Unmodified original"
+    },
+    {
+      "id": "pickup",
+      "image": "images/pickup.jpg",
+      "title": "'18 Ford F-150.jpg",
+      "photo_type": "exterior",
+      "split": "evaluation",
+      "tags": "pickup, dark paint, tall profile, smaller subject",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/%2718_Ford_F-150.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:%2718_Ford_F-150.jpg",
+      "author": "Bull-Doser",
+      "license": "Public domain",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sha256": "ed15346f0c62e3734c71e71c83b7609ddcab25e4f4106a738a05a83432d8b484",
+      "size": [
+        3592,
+        2906
+      ],
+      "retrieved": "2026-10-27T17:07:43.464659+00:00",
+      "transformation": "Unmodified original"
+    },
+    {
+      "id": "suv-rack",
+      "image": "images/suv-rack.jpg",
+      "title": "2019 Subaru Forester 2.5i Premium, front 10.6.19.jpg",
+      "photo_type": "exterior",
+      "split": "evaluation",
+      "tags": "SUV, roof rails, windows, adjacent vehicles",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/2019_Subaru_Forester_2.5i_Premium%2C_front_10.6.19.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2019_Subaru_Forester_2.5i_Premium,_front_10.6.19.jpg",
+      "author": "Kevauto",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "35f3ed21a7420a29c6d20f56afadc37a46fd33968d9da5c1eda0127134c5fdeb",
+      "size": [
+        4841,
+        2831
+      ],
+      "retrieved": "2026-10-27T17:07:45.501702+00:00",
+      "transformation": "Unmodified original"
+    },
+    {
+      "id": "hatch-side",
+      "image": "images/hatch-side.jpg",
+      "title": "2020 Volkswagen Golf Style 1.5 Side.jpg",
+      "photo_type": "exterior",
+      "split": "evaluation",
+      "tags": "hatchback, side view, wheel gaps",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/2020_Volkswagen_Golf_Style_1.5_Side.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2020_Volkswagen_Golf_Style_1.5_Side.jpg",
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "8d2d7af4b9fb7d3c67f1da9334fee3874c33076001e771ce44e546f5a8b81951",
+      "size": [
+        5124,
+        2004
+      ],
+      "retrieved": "2026-10-27T17:08:47.669923+00:00",
+      "transformation": "Unmodified original"
+    },
+    {
+      "id": "convertible",
+      "image": "images/convertible.jpg",
+      "title": "1990 Mazda MX-5 Miata, front left, 06-08-2024.jpg",
+      "photo_type": "exterior",
+      "split": "evaluation",
+      "tags": "convertible, open cabin, thin windshield, busy scene",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/1990_Mazda_MX-5_Miata%2C_front_left%2C_06-08-2024.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1990_Mazda_MX-5_Miata,_front_left,_06-08-2024.jpg",
+      "author": "MercurySable99",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "05b7e0f3147351436d3ba7bf0ee43b899c6e6d0425881d6539d6f3871f90a2da",
+      "size": [
+        4321,
+        3075
+      ],
+      "retrieved": "2026-10-27T17:08:49.845790+00:00",
+      "transformation": "Unmodified original"
+    },
+    {
+      "id": "interior",
+      "image": "images/interior.jpg",
+      "title": "2018 Toyota Camry Interior.jpg",
+      "photo_type": "interior",
+      "split": "routing-control",
+      "tags": "interior, basic correction and padding; never segment",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/2018_Toyota_Camry_Interior.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Toyota_Camry_Interior.jpg",
+      "author": "Ryan Hildebrand",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "74f8fcf436294e19f08272a7eea5c1c689fe6a73bef0171c9e70d97b496b5981",
+      "size": [
+        3016,
+        2011
+      ],
+      "retrieved": "2026-10-27T17:09:52.020722+00:00",
+      "transformation": "Unmodified original"
+    },
+    {
+      "id": "wheel-detail",
+      "image": "images/wheel-detail.jpg",
+      "title": "2018 Toyota Camry LE front 6.13.18.jpg",
+      "photo_type": "detail",
+      "split": "routing-control",
+      "tags": "derived wheel detail; basic correction only",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/2018_Toyota_Camry_LE_front_6.13.18.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Toyota_Camry_LE_front_6.13.18.jpg",
+      "author": "Kevauto",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sha256": "7ec216864c84eb43ef215903a4b7d269d9af3ddbda61096d129cacf0486d0335",
+      "size": [
+        968,
+        1089
+      ],
+      "retrieved": "2026-10-27T17:07:40.454047+00:00",
+      "transformation": "Cropped from sedan-front at pixel box [1888, 1242, 2856, 2331]; JPEG quality 97",
+      "source_group": "sedan-front"
+    }
+  ]
+}

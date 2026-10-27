@@ -1,0 +1,22 @@
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+    lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+.....................                                                    [100%]
+21 passed in 1.07s
+2026-10-27 17:15:32.985126004 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"
+sedan-front 1.414s core IoU 0.9994418846673548
+sedan-rear 1.269s core IoU 0.9880164375966946
+pickup 1.549s core IoU 0.975269096470724
+suv-rack 1.501s core IoU 0.9963204253263871
+hatch-side 1.215s core IoU 0.9994381804796776
+convertible 1.552s core IoU 0.9917398104939309
+interior 0.633s core IoU n/a
+wheel-detail 0.182s core IoU n/a
+{
+  "coarse_silhouette_iou": 0.9525060624610463,
+  "core_region_iou": 0.9901567900734829,
+  "foreground_probe_recall": 0.97,
+  "background_probe_rejection": 0.9666666666666666,
+  "opaque_foreground_fraction": 0.97
+}
+WSL_OFFLINE_BENCHMARK_PASS
