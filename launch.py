@@ -6,7 +6,17 @@ if __name__ == "__main__":
     try:
         from studio.app import main
 
-        if len(sys.argv) == 4 and sys.argv[1] == "--verify-package":
+        if sys.argv[1:] == ["--smoke-test"]:
+            from PySide6.QtCore import QTimer
+            from PySide6.QtWidgets import QApplication
+            from studio.app import Window, configure_app
+            app = QApplication([])
+            configure_app(app)
+            window = Window()
+            window.show()
+            QTimer.singleShot(750, app.quit)
+            sys.exit(app.exec())
+        elif len(sys.argv) == 4 and sys.argv[1] == "--verify-package":
             from studio.diagnostics import verify
 
             sys.exit(verify(sys.argv[2], sys.argv[3]))
