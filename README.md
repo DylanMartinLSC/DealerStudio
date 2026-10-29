@@ -2,8 +2,9 @@
 
 Turn your vehicle photos into a consistent dealership listing set on your own computer.
 
-<!-- TODO: Record the real app using media/GIF_SHOTLIST.md and drop the file at media/demo.gif. -->
 ![DealerStudio demo](media/demo.gif)
+
+<sub>Actual application captures of a saved local-model result. Photo: Kevauto, CC BY-SA 4.0. [Recording details](media/DEMO.md).</sub>
 
 [![Download for Windows](https://img.shields.io/badge/Download_for_Windows-download-238636)](https://github.com/DylanMartinLSC/DealerStudio/releases/latest/download/DealerStudio-windows.zip)
 
