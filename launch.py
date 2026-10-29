@@ -10,6 +10,7 @@ if __name__ == "__main__":
             from PySide6.QtCore import QTimer
             from PySide6.QtWidgets import QApplication
             from studio.app import Window, configure_app
+
             app = QApplication([])
             configure_app(app)
             window = Window()
