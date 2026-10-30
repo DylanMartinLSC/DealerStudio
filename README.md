@@ -1,5 +1,16 @@
 # DealerStudio
 
+Turn your vehicle photos into a consistent dealership listing set on your own computer.
+
+![DealerStudio demo](media/demo.gif)
+
+<sub>Actual application captures of a saved local-model result. Photo: Kevauto, CC BY-SA 4.0. [Recording details](media/DEMO.md).</sub>
+
+[![Download for Windows](https://img.shields.io/badge/Download_for_Windows-download-238636)](https://github.com/DylanMartinLSC/DealerStudio/releases/latest/download/DealerStudio-windows.zip)
+
+Windows builds are unsigned: if SmartScreen appears, choose **More info → Run anyway**.
+
+
 ### A showroom for the photos you already have.
 
 Turn a folder of vehicle photos into a consistent dealership listing set. Choose a studio, refine the cutout, place your branding, and export the whole vehicle in order—all on your own computer.

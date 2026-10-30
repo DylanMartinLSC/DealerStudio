@@ -15,3 +15,11 @@ benchmark/annotation-previews/
 *.onnx
 *.pth
 *.safetensors
+
+# Portable build outputs
+build/
+dist/
+release/
+*.spec
+*.egg-info/
+.demo-recording/
